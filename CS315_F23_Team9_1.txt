@@ -1,0 +1,22 @@
+start
+out << "Enter ", 2 + -3 + +5 - 1 ," integers x, y and z:\n" ;
+Int x ;
+Int ; // SYNTAX ERROR ON LINE 4! It must be 'Int y ;'
+Int z ;
+in >> x ;
+in >> y ;
+in >> z ;
+
+while ( x == 0 or y == 0 or z == 0 ) { 
+	out << "Enter only non-zero values. \n" ;
+in >> x ;
+in >> y ;
+in >> z ;
+	
+}
+
+Int result = x * y * z ) ; // SYNTAX ERROR ON LINE 18! There is unmatched paranthesis. 
+out << result ;
+/ comment // SYNTAX ERROR ON LINE 20! There is no such action. 
+end
+
